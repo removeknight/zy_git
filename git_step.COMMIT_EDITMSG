@@ -1,0 +1,10 @@
+# linux system
+sudo apt-get install git
+git config --global user.name "kyle_zhao"
+git config --global user.email "removema@163.com"
+
+# initialize
+git init
+git add file_name
+git commit -m"info"
+
