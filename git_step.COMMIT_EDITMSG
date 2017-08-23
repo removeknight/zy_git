@@ -7,4 +7,41 @@ git config --global user.email "removema@163.com"
 git init
 git add file_name
 git commit -m"info"
+git status
+git diff
+git log
+git log --pretty=oneline
+git reset --hard HEAD^
+git reset --hard commit_num
+# review history command
+git reflog
+git checkout -- file
+git checkout -- file命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令，我们在后面的分支管理中会再次遇到git checkout命令。
+git reset HEAD file
+git rm
+# create ssh key
+ssh-keygen -t rsa -C "youremail@example.com"
+git remote add origin git@github.com:removeknight/zy_git.git
+git clone
 
+git checkout -b dev
+dev modify file ....&*&*&*&^
+git checkout master
+git merge dev
+git branch -d dev
+
+git stash
+git stash pop
+
+# create local dev from remote 
+git checkout -b dev origin/dev
+
+#Branch dev set up to track remote branch dev from origin.
+git branch --set-upstream dev origin/dev
+git tag tag_name   default on the HEAD 
+git tag tag_name commit_id
+.gitignore file 
+git check-ignore -v App.class
+# alias
+git config --global alias.co checkout
+git add '*.txt'
