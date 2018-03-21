@@ -45,3 +45,6 @@ git check-ignore -v App.class
 # alias
 git config --global alias.co checkout
 git add '*.txt'
+
+
+git branch -d branch_name 当你正处于这个分支的时候是不可以删除的,你需要切换到其他分支。
